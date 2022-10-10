@@ -9,6 +9,7 @@ import Shopping from './Components/Shopping'
 import Chores from './Components/Chores'
 import Login from './Components/Login';
 import NewTask from './Components/NewTask';
+import Header from './Components/Header'
 
 function App() {
   const [user, setUser] = useState(null);
@@ -52,6 +53,7 @@ function App() {
 
   return (
    <div className="body">
+    <Header />
       <Nav user={user} onLogout={setUser}/>
       <NewTask align='center' onAddTask={handleAddTask} user={user} />
       <Routes >

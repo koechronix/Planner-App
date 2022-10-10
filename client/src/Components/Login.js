@@ -1,11 +1,13 @@
 import { useState } from "react"
 import Signup from "./Signup"
+import Header from "./Header"
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import TextField from '@mui/material/TextField';
 import styled from "styled-components";
+
 
 import { useNavigate } from 'react-router-dom'
 
@@ -41,6 +43,7 @@ function Login({ onLogin }) {
 
   return (
     <div className="login">
+      <Header />
     <FormWrapper>
     {showLogin ? (
       <div>
