@@ -34,16 +34,16 @@ function Nav( { user, onLogout } ) {
                     <Link style={{color: "black"}} to="/">Main</Link>
                 </Typography>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Papyrus"}}>
-                    <Link style={{color: "black"}} to="/chores">Exercise</Link>
+                    <Link style={{color: "black"}} to="/exercise">Exercise</Link>
                 </Typography>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Papyrus"}}>
-                    <Link style={{color: "black"}} to="/school">Coding</Link>
+                    <Link style={{color: "black"}} to="/coding">Coding</Link>
                 </Typography>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Papyrus"}}>
-                    <Link style={{color: "black"}} to="/work">Chores</Link>
+                    <Link style={{color: "black"}} to="/chores">Chores</Link>
                 </Typography>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Papyrus"}}>
-                    <Link style={{color: "black"}} to="/exercise">Shopping</Link>
+                    <Link style={{color: "black"}} to="/shopping">Shopping</Link>
                 </Typography>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Papyrus", color: "#FFFFF3"}}>
                     {user?
