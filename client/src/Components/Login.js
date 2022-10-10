@@ -41,12 +41,12 @@ function Login({ onLogin }) {
 
   return (
     <div className="login">
-      <FormWrapper>
+    <FormWrapper>
     {showLogin ? (
       <div>
-        <Card align='center' sx={{paddingTop: 2, minWidth: 600 }} style={{backgroundColor: "#B1DFB0"}}>
-          <Typography style={{fontSize: 20, fontFamily: "Papyrus"}} align='center' variant="p" gutterBottom component="div">
-            Please Login
+        <Card align='center'style={{backgroundColor: "#B1DFB0"}}>
+          <Typography >
+            LogIn
           </Typography>       
           <CardContent align='center'>
             <Typography >
