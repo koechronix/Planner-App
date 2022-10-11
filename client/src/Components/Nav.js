@@ -43,7 +43,7 @@ function Nav( { user, onLogout } ) {
                     <Link to="/exercise"><FaRunning/> Exercise</Link>
                 </Typography>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Carveat"}}>
-                    <Link to="/coding"><li><FaCode/> Coding</li></Link>
+                    <Link to="/coding"><FaCode/> Coding</Link>
                 </Typography>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Carveat"}}>
                     <Link to="/chores"><li><FaBath/> Chores</li></Link>
