@@ -39,16 +39,16 @@ function Nav( { user, onLogout } ) {
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: 'Caveat'}}>
                     <Link to="/home" exact><FaHome/> Feed</Link>
                 </Typography>
-                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Caveat"}}>
+                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Roboto", fontStyle: "italic"}}>
                     <Link to="/exercise"><FaRunning/> Exercise</Link>
                 </Typography>
-                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Caveat"}}>
+                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Roboto"}}>
                     <Link to="/coding"><FaCode/> Coding</Link>
                 </Typography>
-                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Caveat"}}>
+                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Roboto"}}>
                     <Link to="/chores"><FaBath/> Chores</Link>
                 </Typography>
-                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Caveat"}}>
+                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Roboto"}}>
                     <Link to="/shopping"><FaShoppingCart /> Shopping</Link>
                 </Typography>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Ubuntu", color: "green"}}>
