@@ -42,7 +42,7 @@ function Nav( { user, onLogout } ) {
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Georgia", fontStyle: "italic", fontWeight: "bolder"}}>
                     <Link to="/exercise"><FaRunning/> Exercise</Link>
                 </Typography>
-                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Roboto"}}>
+                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Georgia", fontStyle: "italic", fontWeight: "bolder"}}>
                     <Link to="/coding"><FaCode/> Coding</Link>
                 </Typography>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Roboto"}}>
