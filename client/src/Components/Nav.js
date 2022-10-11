@@ -5,7 +5,13 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import { useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
+import { FaBath } from "react-icons/fa";
+import { FaShoppingCart } from "react-icons/fa";
+import { FaSignOutAlt } from "react-icons/fa";
+import { FaCode } from "react-icons/fa";
+import { FaRunning } from "react-icons/fa";
+import { FaHome } from "react-icons/fa";
 
 function Nav( { user, onLogout } ) {
     const navigate = useNavigate();
@@ -23,31 +29,31 @@ function Nav( { user, onLogout } ) {
             <Box sx={{ flexGrow: 1 }}>
             <AppBar style={{backgroundColor: "#88D1D1"}} position="fixed">
                 <Toolbar>
-                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Papyrus", color: "black"}}>
+                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Papyrus", color: "red"}}>
                     {user?
                         <>Hello, {user.first_name} !</>
                     :
                         <></>
                     }  
                 </Typography>
-                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Papyrus"}}>
-                    <Link style={{color: "black"}} to="/">Main</Link>
+                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Carveat"}}>
+                    <Link to="/home" exact><li> <FaHome/> Main</li></Link>
                 </Typography>
-                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Papyrus"}}>
-                    <Link style={{color: "black"}} to="/exercise">Exercise</Link>
+                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Carveat"}}>
+                    <Link to="/exercise"><li><FaRunning/> Exercise</li></Link>
                 </Typography>
-                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Papyrus"}}>
-                    <Link style={{color: "black"}} to="/coding">Coding</Link>
+                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Carveat"}}>
+                    <Link to="/coding"><li><FaCode/> Coding</li></Link>
                 </Typography>
-                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Papyrus"}}>
-                    <Link style={{color: "black"}} to="/chores">Chores</Link>
+                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Carveat"}}>
+                    <Link to="/chores"><li><FaBath/> Chores</li></Link>
                 </Typography>
-                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Papyrus"}}>
-                    <Link style={{color: "black"}} to="/shopping">Shopping</Link>
+                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Carveat"}}>
+                    <Link to="/shopping"><li><FaShoppingCart /> Shopping</li></Link>
                 </Typography>
-                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Papyrus", color: "#FFFFF3"}}>
+                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Carveat", color: "#FFFFF3"}}>
                     {user?
-                        <Button variant="outlined" style={{fontFamily: "Papyrus", fontSize: 20, color: "black" }} onClick={handleLogoutClick} color="inherit">Logout</Button>
+                        <Button variant="outline" href="/" onClick={handleLogoutClick}><li><FaSignOutAlt /> Logout</li></Button>
                     :
                         <></>
                     } 
