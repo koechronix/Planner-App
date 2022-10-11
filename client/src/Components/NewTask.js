@@ -91,7 +91,7 @@ function NewTask({ onAddTask, user }) {
                               <MenuItem value={4}>Shopping</MenuItem>
                           </Select>
                       </FormControl>
-                      <Button variant="outlined" type="submit">Submit</Button>
+                      <Button variant="outlined"style={{fontFamily: "Ubuntu", fontWeight: "bolder", fontStyle: "italic"}} type="submit">Submit</Button>
                     </form>
                   </Typography>
               </CardContent>
