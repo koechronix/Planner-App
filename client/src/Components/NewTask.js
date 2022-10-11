@@ -51,7 +51,7 @@ function NewTask({ onAddTask, user }) {
             <Card  style={{backgroundColor: "#CAFFB7"}}>
               <CardContent>
                   <Typography style={{fontSize: 20, fontFamily: "Ubuntu", fontStyle: "italic"}} align='center' variant="p" gutterBottom component="div">
-                    Make New Task!
+                    Make New Task! 
                   </Typography>       
                   <Typography >
                     <form onSubmit={handleSubmit}>
@@ -63,7 +63,7 @@ function NewTask({ onAddTask, user }) {
                         name="task"
                         autoComplete="off"
                         value={task}
-                        label="New Task"
+                        label="New Task ⤵"
                         onChange={(e) => setTask(e.target.value)}
                       />
                       <FormControl sx={{ minWidth: 275, bgcolor: '#f3eedb' }}>
