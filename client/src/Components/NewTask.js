@@ -56,7 +56,7 @@ function NewTask({ onAddTask, user }) {
                   <Typography >
                     <form onSubmit={handleSubmit}>
                       <TextField
-                        sx={{bgcolor: '#cfe8fc' }}
+                        sx={{bgcolor: '#f3eedb' }}
                         multiline
                         variant="filled"
                         type="text"
@@ -66,7 +66,7 @@ function NewTask({ onAddTask, user }) {
                         label="New Task"
                         onChange={(e) => setTask(e.target.value)}
                       />
-                      <FormControl sx={{ minWidth: 275, bgcolor: '#cfe8fc' }}>
+                      <FormControl sx={{ minWidth: 275, bgcolor: '#f3eedb' }}>
                         <InputLabel align='center'>Importance</InputLabel>
                           <Select
                               value={importance}
@@ -77,7 +77,7 @@ function NewTask({ onAddTask, user }) {
                               <MenuItem value={2}>Low</MenuItem>
                           </Select>
                       </FormControl>
-                      <FormControl sx={{ minWidth: 275, bgcolor: '#cfe8fc' }}>
+                      <FormControl sx={{ minWidth: 275, bgcolor: '#f3eedb' }}>
                         <InputLabel align='center'>Category</InputLabel>
                           <Select
                               value={category_id}
