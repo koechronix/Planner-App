@@ -36,7 +36,7 @@ function Nav( { user, onLogout } ) {
                         <></>
                     }  
                 </Typography>
-                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: 'Caveat'}}>
+                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Georgia", fontStyle: "italic", fontWeight: "bolder"}}>
                     <Link to="/home" exact><FaHome/> Feed</Link>
                 </Typography>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Georgia", fontStyle: "italic", fontWeight: "bolder"}}>
