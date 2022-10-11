@@ -51,9 +51,9 @@ function Nav( { user, onLogout } ) {
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Caveat"}}>
                     <Link to="/shopping"><FaShoppingCart /> Shopping</Link>
                 </Typography>
-                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Caveat", color: "#FFFFF3"}}>
+                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Ubuntu", color: "green"}}>
                     {user?
-                        <Button variant="outline" href="/" onClick={handleLogoutClick}><FaSignOutAlt /> Logout</Button>
+                        <Button variant="outline" href="/" onClick={handleLogoutClick}><FaSignOutAlt size="2rem" /> Logout</Button>
                     :
                         <></>
                     } 
