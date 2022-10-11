@@ -38,7 +38,7 @@ function TaskCard({task, onTaskDelete, updateTask}) {
                             {getEditor()}
                         </div>
                     ) : task.importance === 2 ? (
-                        <div className="orange">
+                        <div className="blue">
                             {task.task.toLowerCase()} 
                             <br/>
                             <Button onClick={handleClick} variant="outlined" type="submit">Edit</Button>

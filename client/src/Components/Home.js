@@ -7,9 +7,9 @@ function Home({ user, tasks, updateTask, onTaskDelete }) {
     const renderTasksListAll = userTasks.map(task => <TaskCard updateTask={updateTask} task={task} key={task.id} onupdateTask={updateTask} onTaskDelete={onTaskDelete}/>)
 
     return (
-        <div align='center' style={{ paddingTop: 250}}>
-            <Typography style={{ fontSize: 20, fontFamily: "Papyrus"}} variant="p" gutterBottom component="div">
-                My plans ... for Today
+        <div align='center' style={{ paddingTop: 80}}>
+            <Typography style={{ fontSize: 18, fontFamily: "Ubuntu"}} variant="p" gutterBottom component="div">
+                My plans ... for Today 
             </Typography>
             {renderTasksListAll}
             <br/>

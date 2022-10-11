@@ -1,12 +1,12 @@
 .red {
   color: red;
-  font-family: 'Papyrus New', Papyrus, monospace;
+  font-family: 'Papyrus New', Ubuntu, monospace;
   font-weight: bold;
 }
 
-.orange {
-  color: orange;
-  font-family: 'Papyrus New', Papyrus, monospace;
+.blue {
+  color: blueviolet;
+  font-family: 'Papyrus New', Ubuntu, monospace;
   font-weight: bold;
 }
 
