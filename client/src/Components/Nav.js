@@ -37,7 +37,7 @@ function Nav( { user, onLogout } ) {
                     }  
                 </Typography>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Carveat"}}>
-                    <Link to="/home" exact><li> <FaHome/> Main</li></Link>
+                    <Link to="/home" exact><FaHome/> Main</Link>
                 </Typography>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Carveat"}}>
                     <Link to="/exercise"><li><FaRunning/> Exercise</li></Link>
