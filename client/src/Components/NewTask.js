@@ -50,7 +50,7 @@ function NewTask({ onAddTask, user }) {
 
             <Card  style={{backgroundColor: "#CAFFB7"}}>
               <CardContent>
-                  <Typography style={{fontSize: 20, fontFamily: "Papyrus"}} align='center' variant="p" gutterBottom component="div">
+                  <Typography style={{fontSize: 20, fontFamily: "Ubuntu", fontStyle: "italic"}} align='center' variant="p" gutterBottom component="div">
                     Make New Task!
                   </Typography>       
                   <Typography >
