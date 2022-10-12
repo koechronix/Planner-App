@@ -8,8 +8,8 @@ function Chores( { tasks, onTaskDelete, updateTask, user }) {
     const renderTasksList = filteredTasks.map(task => <TaskCard task={task} key={task.id} onTaskDelete={onTaskDelete} updateTask={updateTask}/>)
 
     return (
-        <div align='center' style={{ paddingTop: 250}}>
-            <Typography style={{fontSize: 20, fontFamily: "Papyrus"}} variant="p" gutterBottom component="div">
+        <div align='center' style={{ paddingTop: 80}}>
+            <Typography style={{fontSize: 20, fontFamily: "Ubuntu"}} variant="p" gutterBottom component="div">
                 Chores
             </Typography>
             {renderTasksList}

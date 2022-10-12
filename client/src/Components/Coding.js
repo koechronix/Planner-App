@@ -8,7 +8,7 @@ function Coding( { tasks, onTaskDelete, updateTask, user }) {
     const renderTasksList = filteredTasks.map(task => <TaskCard task={task} key={task.id} onTaskDelete={onTaskDelete} updateTask={updateTask}/>)
 
     return (
-        <div align='center' style={{ paddingTop: 250}}>
+        <div align='center' style={{ paddingTop: 80}}>
             <Typography style={{fontSize: 20, fontFamily: "Papyrus"}} variant="p" gutterBottom component="div">
                 Coding
             </Typography>

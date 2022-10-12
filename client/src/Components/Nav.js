@@ -37,16 +37,16 @@ function Nav( { user, onLogout } ) {
                     }  
                 </Typography>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Georgia", fontStyle: "italic", fontWeight: "bolder"}}>
-                    <Link to="/home" exact><FaHome/> Main</Link>
+                    <Link to="/home" exact><FaHome /> Main</Link>
                 </Typography>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Georgia", fontStyle: "italic", fontWeight: "bolder"}}>
-                    <Link to="/exercise"><FaRunning/> Exercise</Link>
+                    <Link to="/exercise"><FaRunning /> Exercise</Link>
                 </Typography>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Georgia", fontStyle: "italic", fontWeight: "bolder"}}>
-                    <Link to="/coding"><FaCode/> Coding</Link>
+                    <Link to="/coding"><FaCode /> Coding</Link>
                 </Typography>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Georgia", fontStyle: "italic", fontWeight: "bolder"}}>
-                    <Link to="/chores"><FaBath/> Chores</Link>
+                    <Link to="/chores"><FaBath /> Chores</Link>
                 </Typography>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: "Georgia", fontStyle: "italic", fontWeight: "bolder"}}>
                     <Link to="/shopping"><FaShoppingCart /> Shopping</Link>

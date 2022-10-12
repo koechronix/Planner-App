@@ -3,7 +3,7 @@ class TasksController < ApplicationController
    
     # GET/tasks
     def index
-        render json: Task.all
+        render json: Task.all, status: :ok
     end
 
     #  GET/tasks/:id

@@ -5,10 +5,10 @@ import Typography from '@mui/material/Typography';
 function Shopping( { tasks, onTaskDelete, updateTask, user }) {
     const userTasks = tasks.filter(task => task.user.id === user.id)
     const filteredTasks = userTasks.filter(task => task.category.name === 'exercise') 
-    const renderTasksList = filteredTasks.map(task => <TaskCard task={task} key={task.id} onTodoDelete={onTaskDelete} updateTodo={updateTask}/>)
+    const renderTasksList = filteredTasks.map(task => <TaskCard task={task} key={task.id} onTaskDelete={onTaskDelete} updateTask={updateTask}/>)
 
     return (
-        <div align='center' style={{ paddingTop: 250}}>
+        <div align='center' style={{ paddingTop: 80}}>
             <Typography style={{fontSize: 20, fontFamily: "Papyrus"}} variant="p" gutterBottom component="div">
                 Shopping
             </Typography>
