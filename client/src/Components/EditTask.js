@@ -36,7 +36,7 @@ function EditTask({onUpdateTask, task}) {
   
     return (
       <div>
-        <Card sx={{ maxWidth: 1000, bgcolor: '#cfe8fc' }} style={{backgroundColor: "#B1DFB0"}}>
+        <Card sx={{ maxWidth: 500, bgcolor: '#cfe8fc' }} style={{backgroundColor: "#B1DFB0"}}>
           <CardContent>     
             <Typography >
               <form onSubmit={handleFormSubmit}>
@@ -64,7 +64,7 @@ function EditTask({onUpdateTask, task}) {
                     </Select>
                 </FormControl>
                 <br/><br/>
-                <FormControl sx={{ minWidth: 275, bgcolor: '#cfe8fc' }}>
+                <FormControl sx={{ minWidth: 200, bgcolor: '#cfe8fc' }}>
                   <InputLabel align='center'>Category</InputLabel>
                     <Select
                         value={category_id}

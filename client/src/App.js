@@ -1,7 +1,7 @@
 import './App.css'
 import React, { useEffect, useState } from 'react'
 import Home from './Components/Home'
-import {Routes, Route } from "react-router-dom"
+import { Routes, Route } from "react-router-dom"
 import Nav from './Components/Nav'
 import Exercise from './Components/Exercise'
 import Coding from './Components/Coding'
@@ -55,7 +55,7 @@ function App() {
    <div className="body">
     <Header />
       <Nav user={user} onLogout={setUser}/>
-      <NewTask align='center' onAddTask={handleAddTask} user={user} />
+      <NewTask align='start' onAddTask={handleAddTask} user={user} />
       <Routes >
         <Route path="/" element={<Home updateTask={handleUpdateTask} tasks={tasks} onTaskDelete={handleDeleteItem} onAddTask={handleAddTask} user={user} />}/>
         <Route path="/exercise" element={<Exercise user={user} updateTask={handleUpdateTask} tasks={tasks} onTaskDelete={handleDeleteItem} onAddTask={handleAddTask}/>}/>
