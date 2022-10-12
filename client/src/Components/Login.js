@@ -48,8 +48,8 @@ function Login({ onLogin }) {
     {showLogin ? (
       <div>
         <Card align='center'style={{backgroundColor: "#B1DFB0"}}>
-          <Typography >
-            LogIn
+          <Typography style={{fontFamily: "Georgia", fontStyle: "italic", fontWeight: "bolder"}}>
+            Log In
           </Typography>       
           <CardContent align='center'>
             <Typography >
@@ -99,7 +99,7 @@ function Login({ onLogin }) {
       <div>
         <Card sx={{ minWidth: 275 }} style={{backgroundColor: "#B1DFB0"}}>
                 <CardContent>
-                    <Typography style={{fontSize: 20, fontFamily: "Papyrus"}} align='center' variant="p" gutterBottom component="div">
+                    <Typography style={{fontSize: 20, fontFamily: "Roboto"}} align='center' variant="p" gutterBottom component="div">
                       <Signup onLogin={onLogin} />
                       Already have an account? &nbsp;
                       <Button variant="outlined" onClick={() => setShowLogin(true)}>
@@ -120,7 +120,7 @@ function Login({ onLogin }) {
 
 
 const FormWrapper = styled.section`
-    font-family: Georgia, serif;
+    font-family: Georgia;
     background: #f3eedb;
     padding: 10px;
     width: 50%;
