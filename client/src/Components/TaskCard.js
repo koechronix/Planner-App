@@ -25,7 +25,7 @@ function TaskCard({task, onTaskDelete, updateTask}) {
     }
     
     return (
-        <div align='center' >
+        <div align='start' >
             <Card sx={{ maxWidth: 350 }} style={{backgroundColor: "#F5FFB9"}}>
                 <CardContent>
                     <Typography style={{fontSize: 20, fontFamily: "Papyrus"}} align='center' variant="p" gutterBottom component="div">
