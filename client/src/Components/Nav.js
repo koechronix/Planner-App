@@ -31,7 +31,7 @@ function Nav( { user, onLogout } ) {
                 <Toolbar>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontFamily: 'Ubuntu', color: "purple"}}>
                     {user?
-                        <>Hello, {user.first_name} !</>
+                        <>Hello, {user.first_name} 👋</>
                     :
                         <></>
                     }  
@@ -65,4 +65,5 @@ function Nav( { user, onLogout } ) {
 }
 
 export default Nav
+
 

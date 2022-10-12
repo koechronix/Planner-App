@@ -23,7 +23,7 @@ function EditTask({onUpdateTask, task}) {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          todo: newTask,
+          task: newTask,
           importance: importance,
           category_id: category_id
         }),
