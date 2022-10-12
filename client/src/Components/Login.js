@@ -85,7 +85,7 @@ function Login({ onLogin }) {
               </form>            
             </Typography>
             <br/>
-            <Typography>
+            <Typography style={{fontFamily: "Georgia", fontStyle: "italic", fontWeight: "bolder"}}>
               Don't have an account? &nbsp;
               <Button variant="outlined" onClick={() => setShowLogin(false)}>
                 Sign Up
