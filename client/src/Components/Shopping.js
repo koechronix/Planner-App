@@ -4,7 +4,7 @@ import Typography from '@mui/material/Typography';
 
 function Shopping( { tasks, onTaskDelete, updateTask, user }) {
     const userTasks = tasks.filter(task => task.user.id === user.id)
-    const filteredTasks = userTasks.filter(task => task.category.name === 'exercise') 
+    const filteredTasks = userTasks.filter(task => task.category.name === 'shopping') 
     const renderTasksList = filteredTasks.map(task => <TaskCard task={task} key={task.id} onTaskDelete={onTaskDelete} updateTask={updateTask}/>)
 
     return (
