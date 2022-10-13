@@ -9,7 +9,7 @@ function Shopping( { tasks, onTaskDelete, updateTask, user }) {
 
     return (
         <div align='center' style={{ paddingTop: 80}}>
-            <Typography style={{fontSize: 20, fontFamily: "Papyrus"}} variant="p" gutterBottom component="div">
+            <Typography style={{fontSize: 20, fontFamily: "Ubuntu"}} variant="p" gutterBottom component="div">
                 Shopping
             </Typography>
             {renderTasksList}
