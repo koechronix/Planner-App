@@ -1,7 +1,7 @@
 # Planner-App
 
 > Planner-App is a React/Rails web application that allows you to create task according to categories.
-> Live demo [_here_]().
+> Live demo [_https://my-app-planner.herokuapp.com/]().
 
 ## Table of Contents
 
@@ -16,7 +16,12 @@
 - [Contact](#contact)
 
 ## General Information
-
+- This application is an example of how authentication and authorization works by 
+use of react to perform client side and  rails to perform server side.
+-My application a user can login and add his daily plans categorically i.e exercise, coding, chores and shopping.
+-Hence there after a user can log out hence its very secure to ensure your daily plans no one can have a look at it.
+The app has three models users, tasks and categories
+-The app performs CRUD operations i.e create, read, update and delete.
 
 
 ## Technologies Used
@@ -27,10 +32,10 @@
 
 ##### Ruby Gems:
 
-- bcrypt 3.1.7
+- bcrypt 3.1.16
 - watir 7.1.0
-- nokogiri 1.13.6
-- pg 1.3.5
+- nokogiri 1.11.7
+- pg 1.2.3
 
 ## Features
 
@@ -65,8 +70,6 @@ npm start
 ```
 
 ## Usage
-
-## Project Status
 
 
 ## Acknowledgements
