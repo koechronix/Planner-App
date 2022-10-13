@@ -1,6 +1,6 @@
 # Planner-App
 
-> Planner-App is a React/Rails web application that allows you to m in an email newsletter. You choose when you want to read them: that week or by the end of the month.
+> Planner-App is a React/Rails web application that allows you to create task according to categories.
 > Live demo [_here_]().
 
 ## Table of Contents
@@ -38,7 +38,6 @@
 
 ## Screenshots
 
-#### Homepage + Extension
 
 
 
@@ -67,16 +66,13 @@ npm start
 
 ## Usage
 
-
-
-
 ## Project Status
 
 
 ## Acknowledgements
 
 
-- Many thanks to my Technical Mentor  at Moringa, Titus Ouko: for teaching me a solid foundation in React and Rails, and supporting and encouraging me not only on for this project, but throughout the entire  program.
+- Many thanks to my Technical Mentor  at Moringa, Titus Ouko: for teaching me a solid foundation in React and Rails, and supporting and encouraging me  throughout the entire  program.
 
 ## Contact
 
