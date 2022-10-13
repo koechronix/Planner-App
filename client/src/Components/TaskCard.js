@@ -28,7 +28,7 @@ function TaskCard({task, onTaskDelete, updateTask}) {
         <div align='start' >
             <Card sx={{ maxWidth: 350 }} style={{backgroundColor: "#F5FFB9"}}>
                 <CardContent>
-                    <Typography style={{fontSize: 20, fontFamily: "Ubuntu"}} align='center' variant="p" gutterBottom component="div">
+                    <Typography style={{fontSize: 20, fontFamily: "Ubuntu"}} align='start' variant="p" gutterBottom component="div">
                     {task.importance === 1 ? (
                         <div className="red">
                             {task.task.toLowerCase()}
