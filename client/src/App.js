@@ -58,8 +58,8 @@ function App() {
       <NewTask align='start' onAddTask={handleAddTask} user={user} />
       <Routes >
         <Route path="/" element={<Home updateTask={handleUpdateTask} tasks={tasks} onTaskDelete={handleDeleteItem} onAddTask={handleAddTask} user={user} />}/>
-        <Route path="/exercise" element={<Exercise user={user} updateTask={handleUpdateTask} tasks={tasks} onTaskDelete={handleDeleteItem} onAddTask={handleAddTask}/>}/>
-        <Route path="/coding" element={<Coding user={user} updateTask={handleUpdateTask} tasks={tasks} onTaskDelete={handleDeleteItem} onAddTask={handleAddTask}/>}/>
+        <Route path="/exercise" element={<Exercise user={user} updateTask={handleUpdateTask} tasks={tasks} onTaskDelete={handleDeleteItem} onAddTask={handleAddTask} />}/>
+        <Route path="/coding" element={<Coding user={user} updateTask={handleUpdateTask} tasks={tasks} onTaskDelete={handleDeleteItem} onAddTask={handleAddTask} />}/>
         <Route path="/chores" element={<Chores user={user} updateTask={handleUpdateTask} tasks={tasks} onTaskDelete={handleDeleteItem} onAddTask={handleAddTask} />}/>
         <Route path="/shopping" element={<Shopping user={user} updateTask={handleUpdateTask} tasks={tasks} onTaskDelete={handleDeleteItem} onAddTask={handleAddTask} />}/>
       </Routes>
