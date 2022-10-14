@@ -33,3 +33,5 @@ categories = Category.create([
 ])
 
 puts "✅ Done seeding!"
+
+
