@@ -1,17 +1,15 @@
 # Planner-App
 
 > Planner-App is a React/Rails web application that allows you to create task according to categories.
-> Live demo [_https://my-app-planner.herokuapp.com/]().
+> Live demo [_https://my-planning-app.herokuapp.com/ ]().
 
 ## Table of Contents
 
 - [General Info](#general-information)
 - [Technologies Used](#technologies-used)
-- [Features](#features)
+- [Ruby Gems](#ruby-gems)
 - [Screenshots](#screenshots)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Project Status](#project-status)
+- [Set Up](#set-up)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
@@ -37,18 +35,8 @@ The app has three models users, tasks and categories
 - nokogiri 1.11.7
 - pg 1.2.3
 
-## Features
 
-- 
-
-## Screenshots
-
-
-
-
-
-## Demo
-
+## Screenshot
 
 ## Setup
 
@@ -59,25 +47,20 @@ To get started:
 3. Start rails server and start react app
 
 ```
-cd 
 bundle install
+rails db:create 
+rails db:migrate db:seed
 rails s
 
-cd client
-npm install
-npm start
+open another terminal and run 
+npm install --prefix client
+npm start --prefix client
 ```
-
-## Usage
-
-
 ## Acknowledgements
-
 
 - Many thanks to my Technical Mentor  at Moringa, Titus Ouko: for teaching me a solid foundation in React and Rails, and supporting and encouraging me throughout the entire  program.
 
 ## Contact
  https://www.linkedin.com/in/amos-koech-3b2310212?
-
 
 --
