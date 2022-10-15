@@ -1,7 +1,7 @@
 # Planner-App
 
 > Planner-App is a React/Rails web application that allows you to create task according to categories.
-> Live demo [_https://my-planning-app.herokuapp.com/ ]().
+> Live demo [_ ]().  fixing a problem while deploying....
 
 ## Table of Contents
 
